@@ -1,5 +1,86 @@
-.App,
-.cssEdit {
+* {
   font-family: sans-serif;
   text-align: center;
+  background-color: rgb(13, 77, 255);
+}
+
+.container {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.buttonComecarOJogo,
+.buttonIniciarJogo,
+.buttonAcertou {
+  font-family: sans-serif;
+  font-size: 20px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.buttonComecarOJogo,
+.buttonIniciarJogo {
+  font-size: 20px;
+}
+.buttonMenor {
+  font-family: sans-serif;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #91d414;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.buttonMaior {
+  font-family: sans-serif;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #e40404;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.buttons:hover {
+  transform: translateY(-1px);
+}
+
+.buttons:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
 }
